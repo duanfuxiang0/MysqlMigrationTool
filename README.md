@@ -35,7 +35,7 @@ SELECT * FROM table1 where index_key > start_key order by index_key asc LIMIT co
 SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;
 ```
 
-## 2. 增量迁移, incremental_data-migration.go
+## 2. 增量迁移script, incremental_data-migration.go
 
 增量迁移的数据源是线上主库的binlog
 用go-mysql来处理 binlog，使用binlog中的row格式
