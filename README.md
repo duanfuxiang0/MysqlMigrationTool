@@ -8,7 +8,7 @@ write in golang
 相关字段的需求。
 <p> 工具分成两个脚本，全量迁移脚本和增量迁移脚本，再配合业务代码的双写，可以实现线上数据
 的无感知迁移，具体的迁移流程如下图：</p>
-![image](https://github.com/fuxiangduan/MysqlMigrationTool/blob/master/%E5%8F%8C%E5%86%99%E6%96%B9%E6%A1%88.jpg?raw=true)
+![jpg](/%E5%8F%8C%E5%86%99%E6%96%B9%E6%A1%88.jpg)
 
 ## 1. 全量迁移script, full_data_migration.go
 
